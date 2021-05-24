@@ -9,7 +9,7 @@
     "website": "",
     "license": "LGPL-3",
     "category": "Themes",
-    "version": "9.0",
+    "version": "9.0.1.0.0",
     "depends": ["website"],
     "data": ["views/assets.xml"],
 }
