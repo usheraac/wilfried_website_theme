@@ -79,7 +79,6 @@ h5 { font-family: Utopia_SC_Regular; }
 
 #footer {
     margin-top: 1em;
-    border-top: 2px solid black;
     padding-top: 1em;
 	color: white;
 	font: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
@@ -175,7 +174,10 @@ h5 { font-family: Utopia_SC_Regular; }
 /* F O R M U L A I R E S */
 
 label, 
-.form-horizontal .control-label { font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"}
+.form-horizontal .control-label { 
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	 
+}
 
 .form-control {
     border: 2px solid black;
@@ -188,6 +190,7 @@ label,
 
     input {
     	font-family: initial;
+		
     }
 }
 
@@ -206,22 +209,6 @@ label,
 
 /* S H O P     L I S T */
 
-.oe_product {
-    border: none !important;
-    text-align: center;
-
-    // section {
-    //     background: rgba(255, 180, 180, 0.8) !important;
-    //     display: none;
-    //     top: 0;
-
-    //     h5 {
-    //         margin: auto;
-    //     }
-    // }
-    // &:hover section {
-    //     display: flex;
-    // }
 
     a {
         color: black;
@@ -234,40 +221,12 @@ label,
             text-shadow: 1px 1px black;
         }
     }
-}
 
 
-.oe_product .oe_product_image {
-    position: initial !important;
-}
-
-.oe_product .oe_product_image img {
-    position: initial !important;
-}
-
-.oe_product section {
-    position: initial !important;
-    padding: 0 !important;
-    min-height: initial !imporant;
-    border-top: none !important;
-}
-
-.oe_product .product_price {
-    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-    left: 0;
-    right: 0;
-    bottom: 25% !important;
-    text-align: center;
-
-    position: initial !important;
-}
 
 
 /* I M A G E S */
-.product_detail_img {
-    border: 2px solid black;
-    box-shadow: 1px 1px black, 2px 2px black, 3px 3px black, 4px 4px black;
-}
+
 
 /* B O U T O N S     S H O P */
 
@@ -305,48 +264,7 @@ label,
 }
 
 /* P A G I N A T I O N */
-.pagination > .disabled > span, 
-.pagination > .disabled > span:hover, 
-.pagination > .disabled > span:focus, 
-.pagination > .disabled > a, 
-.pagination > .disabled > a:hover, 
-.pagination > .disabled > a:focus,
-.pagination > li > a, 
-.pagination > li > span {
-    border: 2px solid black;
-    font-family: Utopia_SC_Regular;
 
-}
-.pagination > .disabled > span, 
-.pagination > .disabled > span:hover, 
-.pagination > .disabled > span:focus, 
-.pagination > .disabled > a, 
-.pagination > .disabled > a:hover, 
-.pagination > .disabled > a:focus {
-    //color: #ccc;
-    display: none;
-}
-.pagination > li > a, 
-.pagination > li > span { color: black; }
-.pagination > .active > a, 
-.pagination > .active > span, 
-.pagination > .active > a:hover, 
-.pagination > .active > span:hover, 
-.pagination > .active > a:focus, 
-.pagination > .active > span:focus {
-    background-color: @color-green;
-    border-color: black;
-    color: black;
-}
-
-.pagination > li > a:hover, 
-.pagination > li > span:hover, 
-.pagination > li > a:focus, 
-.pagination > li > span:focus {
-    background-color: @color-green;
-    border-color: black;
-    color: black;
-}
 
 
 /* W I D G E T S */
@@ -354,7 +272,7 @@ label,
 
 
 /* footer { display: none } */
-footer { 
+#wrapwrap > footer { 
 	background: black;
 	padding-bottom: 1em;
 				
@@ -366,3 +284,9 @@ footer {
 }
 
 
+/* LOGO */
+img {
+	height: 84px;
+	width: 205px;
+	
+}
