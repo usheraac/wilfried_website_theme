@@ -1,0 +1,10 @@
+<openerp>
+  <!-- We add the css stylesheet -->
+  <template id="assets_frontend" name="wilfried_website_theme_website_assets"
+    inherit_id="website.assets_frontend">
+    <xpath expr="." position="inside">
+      <link rel="stylesheet"
+        href="/wilfried_website_theme_christmas/static/src/less/wilfried_website_design.less"/>
+    </xpath>
+  </template>
+</openerp>
